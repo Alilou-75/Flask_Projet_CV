@@ -28,6 +28,9 @@ header .nav_button_right{
     float: right;
     padding: 10px;
 }
+#row{
+    background-image:url("Fond_ecran.jpg");
+}
 
 #banner{
     margin-top: 13%; 
@@ -176,7 +179,9 @@ header .nav_button_right{
         width: 50%;
     }
 }
-
+#contact{
+    color:blue;
+}
 
 
 
