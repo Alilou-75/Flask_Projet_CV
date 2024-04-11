@@ -134,8 +134,9 @@ header .nav_button_right{
     margin: 70px auto;
     padding: 20px;
     background: #fff;
+    background-image: url("../img/graphic-design-4.jpg");
     border-radius: 5px;
-    width: 80%;
+    width: 50%;
     
     position: relative;
     transition: all 5s ease-in-out;
