@@ -28,9 +28,7 @@ header .nav_button_right{
     float: right;
     padding: 10px;
 }
-#row{
-    background-image:url("Fond_ecran.jpg");
-}
+
 
 #banner{
     margin-top: 13%; 
@@ -51,10 +49,6 @@ header .nav_button_right{
     font-weight: 500;
     color: #F17300
 }
-
-
-
-
 
 /*Resume template dummy viewing section*/
 
@@ -179,11 +173,6 @@ header .nav_button_right{
         width: 50%;
     }
 }
-#contact{
-    color:blue;
-}
-
-
 
 /*in resume section*/
 .h_color{
@@ -205,7 +194,6 @@ header .nav_button_right{
     width: 100%;
     padding: 8px;
 }
-
 
 #resume_1 h2{
     font-weight: 600px;
