@@ -145,8 +145,8 @@
        <div id="popup1" class="overlay">
             <div class="popup">
                 <div class="container">
-                    <h4>RESUME TEMPLATES</h4>   
-                     <h1>Contact me</h1>
+			<a class="close" href="#">&times;</a> <!-- pour fermer la fenetre -->
+                     <h1 in="contact">Contact me</h1>
 	<p>Fields marked with * are required.</p>
 
 <form action="#">
@@ -172,8 +172,9 @@
 	<br><input name="A" type="date" value="jj/mm/aaaa" />
 </p>
 	
-	<p><input type="submit" value="Send" />
-        </p>
+	<button class="btn btn-primary" type="submit" >Submit form</button>
+                                <a href="#" class="btn btn-danger">Cancel</a>
+      
  
 </form>
                             
