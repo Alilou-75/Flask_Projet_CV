@@ -149,19 +149,20 @@
                      <h1>Contact me</h1>
 	<p>Fields marked with * are required.</p>
 
-<form action="#">
+<form method="post" action="traitement.php">
 <fieldset>
-<legend>your correspondence</legend>
-<p>Full Name
-	<br><input name="A" type="Text" /></p>
-
-<p>Email Address* 
-	<br><input name="A" type="Text" /></p>
-<p>Message:* 
-	<br><p>
-<textarea rows="3" cols="30" name="H">
-</textarea>
-</p>
+<legend>Formulaire 1ère Partie</legend>
+   <p>
+      <label for="name">Full Name: </label>
+      <input type="Text" name="name" id="name" placeholder="Full Name"/>  
+   <br/><br/>
+      <label for="mail">Email Address*: </label>
+      <input type="email" name="mail" id="mail" placeholder="Email Address" required="required"/> <!--Obligatoire -->  
+   <br/><br/>
+	   <p>
+       <label for="commentaire">Your message:*: </label><br/>
+       <textarea name="commentaire" id="commentaire"></textarea>
+     </p>
 	<p>Objective of contact</p>
 	<p><input name="C" type="radio" value="private"/> Private  
 	<br><input name="C" type="radio" value="Jaune"/>Business 
@@ -171,7 +172,7 @@
 <p> Date *
 	<br><input name="A" type="date" value="jj/mm/aaaa" />
 </p>
-	
+	</fieldset>
 	<button class="btn btn-primary" type="submit" >Send</button>
                                 <a href="#" class="btn btn-danger">Cancel</a>
       
